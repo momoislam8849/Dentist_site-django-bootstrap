@@ -160,6 +160,16 @@
   <!-- ***** Breadcrumb Area End ***** -->
 
   <!-- ***** Contact Area Start ***** -->
+  {% if message_name %}
+  <center>
+      <h2>Thanks {{message_name}}</h2>
+      <p>We received your mail and will respond shortly</p>
+  </center>
+
+<br/><br/><br/>
+
+  {% else %}
+
   <section class="dento-contact-area mt-50 mb-100">
     <div class="container">
       <div class="row">
@@ -219,6 +229,7 @@
       </div>
     </div>
   </section>
+  {% endif %}
   <!-- ***** Contact Area End ***** -->
 
   <!-- ***** Footer Area Start ***** -->
