@@ -123,3 +123,13 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS =[
     os.path.join(BASE_DIR,'static'),
 ]
+
+# myaccount.google.com/lesssecureapps
+# accounts.google.com/DisplayUnlockCaptcha
+# myaccount.google.com/apppasswords
+# Email Settings
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'shampaislammomo@gmail.com'
+EMAIL_HOST_PASSWORD = 'kaiummomo'
+EMAIL_USE_TLS = True
